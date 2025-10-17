@@ -1,0 +1,27 @@
+.custom-channel
+{
+    padding: 20px;
+    margin-top: 60px;
+    background-color: #121212;
+    color: white;
+    width: 100%;
+    display: grid;
+
+}
+.custom-channel-area
+{
+    background-color: #121212;
+    color: white;
+}
+/* Default card size */
+.card-custom-subscription {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+/* Expand card size when sidebar is collapsed */
+.cards-expanded .card-custom-subscription {
+  width: 400px;
+  height: 330px;
+}

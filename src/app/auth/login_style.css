@@ -1,0 +1,64 @@
+.fs-12 {
+  font-size: 13px !important;
+}
+.input-texted
+{
+    background-color: #232323 !important;
+    color: #585757 !important;
+    border: 1px solid #464444 !important;
+}
+
+.login-button
+{
+    width: 320px !important;
+    border: 1px solid red !important;
+    font-size: 18px !important;
+    background-color: #232323!important;
+    color: red !important;
+    margin-top: 30px !important;
+    transition: 0.3s ease !important;
+}
+.login-button:hover
+{
+    background-color: red !important;
+    color: white !important;
+    cursor: pointer !important;
+}
+
+/* Updated */
+
+
+.input-texted {
+  background-color: #2f2f2f !important;
+  border: 1px solid #444 !important;
+  color: white !important;
+  font-size: 15px !important;
+}
+
+@media (max-width: 576px) {
+  .login-form-container {
+    width: 90% !important;
+  }
+
+  .fs-4 {
+    font-size: 1.2rem !important;
+  }
+
+  .fs-6 {
+    font-size: 0.9rem !important;
+  }
+
+  .fs-12 {
+    font-size: 0.8rem !important;
+  }
+
+  .input-texted {
+    font-size: 14px !important;
+  }
+
+  .login-button {
+    
+    justify-content: center !important;
+    margin-top: 50px !important;
+  }
+}

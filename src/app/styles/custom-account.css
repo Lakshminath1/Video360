@@ -1,0 +1,22 @@
+.custom-card-acc
+{
+    padding: 1rem;
+    border-radius: 7px;
+    width: 290px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 !important;
+}
+.custom-detail-card
+{
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+

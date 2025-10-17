@@ -1,0 +1,34 @@
+.custom-file-icon
+{
+    font-size: 200px;
+    color: #ff0000;
+}
+.file-upload
+{
+   width: 100%;
+   height: calc(100vh - 100px); /* Adjust if your header/sidebar height changes */
+}
+.custom-title
+{
+    color: rgba(255, 255, 255, 0.699);
+}
+.upload-btn
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #ff0000;
+   
+    font-size: 16px;
+     
+    cursor: pointer;
+}
+.upload-btn:hover
+{
+    background: linear-gradient(to right, #f94144, #f3722c);
+    color: white !important;
+    border: 2px solid #ff0000;
+}
+.upload-btn:active
+{
+  border: 2px solid #978f8f !important;
+}

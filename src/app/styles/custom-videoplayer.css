@@ -1,0 +1,109 @@
+.custom-player
+{
+    width: 100%;
+    max-width: 95%;
+    margin: 90px 0 0 150px;
+}
+.center-video-player
+{
+    width: 100%;
+    height: 310px;
+}
+.title-custom
+{
+    background-color: #1C1C1C;
+}
+.details-video 
+{
+    background-color: #1C1C1C;
+    top: 500px;
+}
+.custom-title-name
+{
+    font-size: 18px;
+}
+.views-custom
+{
+    color: rgba(216, 209, 209, 0.847);
+    font-size: 12px;
+}
+.custom-check
+{
+    color: green;
+    font-size: 14px;
+}
+.custom-notification {
+  border: 1px solid red;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.custom-bell {
+  font-size: 16px;
+  color: red;
+}
+
+.custom-notification:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.custom-notification:hover .custom-bell
+{
+  color: white;
+}
+.custom-channel-logo
+{
+    cursor: pointer;
+}
+.custom-channel-name:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.custom-post
+{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.61);
+    cursor: pointer;
+}
+.custom-about
+{
+    color: rgba(255, 255, 255, 0.689);
+    font-size: 13px;
+}
+.custom-tag-name
+{
+    background-color: #333333;
+    padding: 3px 0;
+    font-size: 14px;
+}
+.custom-tag-name:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
+.custom-badge
+{
+    cursor: pointer;
+}
+.video-meta
+{
+    color: grey;
+}
+.custom-play-icon
+{
+    left:65px;
+    top: 25px;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    transform: scale(0.8);
+}
+.custom-next-videos:hover .custom-play-icon
+{
+    opacity: 0.5;
+}
+.custom-meta
+{
+    color: rgba(255, 255, 255, 0.582);
+}

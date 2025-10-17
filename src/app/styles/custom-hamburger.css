@@ -1,0 +1,61 @@
+
+
+
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin: auto;
+}
+
+/* Hamburger button */
+.hamburger-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  margin: 12px;
+}
+
+/* Font icon padding */
+.cutsom-font-icon {
+  padding: 10px;
+}
+.app-container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 230px;
+  transition: width 0.3s ease;
+  background-color: #1e1e2f;
+  color: white;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+.sidebar-collapsed {
+  width: 60px;
+}
+
+/* Main content area */
+.main-content {
+ 
+  transition: all 0.3s ease;
+  padding: 16px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Optional: fix footer placement */
+.custom-footer {
+  margin-top: auto;
+}
+
+
+
+

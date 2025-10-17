@@ -1,0 +1,20 @@
+.cancel-btn
+{
+    width: 30px;
+    height: 30px;
+    background-color: #FFD907;
+    border: #FFD907 1px solid;
+    color: black;
+}
+
+.custom-subscription-members
+{
+    margin-top: 500px;
+    width: 100%;
+    max-width: 90%;
+}
+
+.sorting-menu
+{
+    top: 80px;
+}

@@ -1,0 +1,39 @@
+.custom-form
+{
+    margin-left: 20px;
+    margin-top: 100px;
+    
+}
+.custom-form-setting
+{
+    color: white;
+    background-color: #1C1C1C;
+    border: 1px solid #303030;
+    font-size: 14px;
+    padding: 6px;
+    font-size: 16px;
+}
+
+.custom-form-setting:focus
+{
+    background-color: #2A2A2A;
+    color: white;
+}
+.custom-form-setting::placeholder 
+{
+    color: #CCCC;   
+}
+
+.custom-form-btn
+{
+    background: linear-gradient(60deg, #ff4e50, #bc817a);
+    color: white;
+    border: none;
+}
+.custom-form-btn-two
+{
+    background: linear-gradient(60deg, #4ade80, #5eead4);
+    color: white;
+    border: none;
+}
+

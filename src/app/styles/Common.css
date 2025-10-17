@@ -1,0 +1,166 @@
+body {
+  overflow-x: hidden;
+}
+.custom-video
+{
+    background-color: #121212;
+    
+}
+
+.custom-card {
+    width: 100%;
+    min-width: 290px;
+}
+
+.video-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    width: 100%;
+    margin-top: 80px;
+    transition: grid-template-columns 0.3s ease;
+}
+
+.sidebar-collapsed .video-grid {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.play-icon
+{
+    left:119px;
+    font-size:55px;
+    top: 55px;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    transform: scale(0.8);
+}
+.custom-card-layout
+{
+    width: 100%;
+}
+.custom-card-layout:hover .play-icon {
+  opacity: 0.5;
+}
+.custom-card
+{
+    width: 100%;
+    min-width: 290px;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.fsize
+{
+    font-size: 14px;
+}
+.color-custom
+{
+    color: #A3A1A3;
+}
+.custom-subscription
+{
+    width: 110px;
+    
+}
+.card-bg-custom
+{
+    position: relative;
+    z-index: 2;
+    background-color: #1C1C1C;
+    overflow: visible;
+    cursor: pointer;
+}
+.card-bg-custom:hover
+{
+    cursor: pointer;
+}
+.card-bg-custom::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 85%;
+    left: 50%;
+    margin: 0 auto;
+    height: 4px;
+    background-color: #494949;
+    transform: translateX(-50%);
+    z-index: 1;
+    border-radius: 10px;
+}
+.card-bg-custom:hover::before
+{
+    background-color: #858585; 
+}
+
+.custom-sub-btn
+{
+    border: 2px solid red;
+    background-color:#1C1C1C;
+}
+.custom-sub-btn:hover
+{
+    color: white !important;
+}
+.sort-edit:hover, .sort-edit:active
+{
+    color: red !important;
+    cursor: pointer;
+    
+    
+}
+.drop-custom {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.drop-custom:hover {
+  background-color: #333333;
+  transform: scale(1.2);
+}
+.sort-dropdown-custom
+{
+    background-color: #232323;
+    top: 25px;
+    width: 170px;
+
+}
+.cusrom-color 
+{
+    color: #A3A1A3;
+}
+.sort-list:hover
+{
+    background-color: #a3a1a3c3;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover
+{
+    background: linear-gradient(to right, #f94144, #f3722c);
+    color: white !important;
+}
+
+/* Footer */
+
+.custom-footer {
+  background-color: #232323;
+  text-align: center;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+

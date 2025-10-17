@@ -1,0 +1,225 @@
+/* Components */
+
+/* Header */
+
+/* Header */
+@media screen and (max-width: 992px)
+{
+   .custom-header
+  {
+    align-items: center !important;
+    text-align: center !important;
+      
+  }
+  .grid-custom
+  {
+    gap: 30px !important;
+    margin-top: 80px !important;
+  }
+
+  .search-accesss
+  {
+    width: 100% !important;
+  }
+  .custom-header
+  {
+    gap: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  
+    .custom-header
+  {
+    align-items: center !important;
+    text-align: center !important;
+      
+  }
+  .grid-custom
+  {
+    gap: 30px !important;
+     margin-top: 80px !important;
+  }
+
+  .noti-badge {
+    font-size: 10px !important;
+    top: -5px !important;
+    right: -5px !important;
+  }
+
+  .custom-tag, .custom-set, .custom-settting {
+    font-size: 13px !important;
+  }
+
+  .fs-8 {
+    font-size: 12px !important;
+  }
+}
+
+
+
+/* Header Ends */
+
+
+/* video responsive */
+
+/* Extra Small Devices */
+
+@media (max-width: 575px)
+{
+  .video-grid
+  {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    margin-top: 80px !important;
+  }
+
+  .custom-channel-card
+  {
+    grid-template-columns: 1fr !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+/* Small Devices  */
+/* responsive.css or wherever you're writing media queries */
+@media (min-width: 576px) and (max-width: 767px) {
+  .video-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    column-gap: 15px;
+    row-gap: 20px;
+    max-width: 100% !important;
+     margin-top: 80px !important;
+  }
+
+  .custom-channel-area {
+    padding: 10px;
+    margin-left: 0 !important;
+  }
+
+  .custom-channel-card {
+    margin-bottom: 20px !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-bg-custom {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .custom-channels {
+    width: 100% !important;
+    padding: 0 10px !important;
+  }
+
+  .custom-subscription {
+    justify-content: center !important;
+  }
+
+  .subscribe-btn {
+    font-size: 14px !important;
+    width: 110px !important;
+  }
+
+  .sort-dropdown-custom {
+    right: 10px !important;
+  }
+
+  .sort-edit {
+    font-size: 14px !important;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) 
+{
+   .video-grid
+  {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .video-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 100% !important;
+    margin: 10px auto !important;
+    padding: 0 10px !important;
+    row-gap: 20px !important;
+  }
+
+  /* Channel Container */
+  .custom-channels {
+    padding: 10px !important;
+    margin: 20px auto !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Channel Card Individual */
+  .custom-channel-card {
+    width: 100% !important;
+    max-width: 300px;
+    margin: 10px auto !important;
+  }
+  .sort-edit
+  {
+    display: flex !important;
+    justify-content: end !important;
+    margin-left: 48px !important;
+  }
+}
+
+
+/* channels Pages media query */
+
+@media screen and (min-width: 768px) and (max-width: 940px)
+{
+  .custom-channel
+  {
+    margin-left: 20px !important;
+  }
+}
+
+@media screen and (min-width: 992) and (max-width: 1400px)
+{
+   .custom-channel
+  {
+    margin-left: 50px !important;
+  }
+}
+
+@media screen and (width: 880px)
+{
+  .custom-channel
+  {
+    margin-left: 20px !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .custom-channel {
+    margin-left: 250px !important;
+    width: 100% !important;
+  }
+  .card-custom-subscription
+  {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+}

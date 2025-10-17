@@ -1,0 +1,81 @@
+.bg-dark-shade
+{
+    background-color:#232323;
+}
+.search-accesss
+{
+    width: 600px;
+    height: 37px;
+    background-color: #121212;
+    border: 2px solid #303030;
+}
+.fs-8
+{
+    font-size: 14px;
+}
+.search-accesss:focus
+{
+    background-color: #121212;
+    color: white;
+}
+.magni
+{
+    width: 37px;
+    height: 37px;
+    background-color: #303030;
+    cursor: pointer;
+}
+.magni:hover
+{
+    color: black;
+}
+.magni:focus
+{
+    background-color: #fff;
+}
+.magni:active
+{
+    border: 2px solid #303030;
+    background-color: white;
+    color: #303030;
+}
+
+.grid-custom {
+  grid-template-columns: repeat(3, auto);
+  gap: 0;
+}
+
+.noti-badge {
+  top: -4px;
+  right: 20px;
+  background-color: red;
+  font-size: 8px;
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+}
+.cursor:hover
+{
+    cursor: pointer;
+}
+.fs-7
+{
+    font-size: 12px;
+}
+.custom-tag:hover
+{
+    background-color: #494949;
+}
+.custom-set:hover
+{
+    background-color: #494949;
+}
+.custom-settting:hover
+{
+    background-color: #494949;
+    cursor: pointer;
+}
+.custom-settting
+{
+    border-top: 1px solid rgba(140, 137, 137, 0.788);
+}
